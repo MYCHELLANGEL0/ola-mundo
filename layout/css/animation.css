@@ -1,0 +1,27 @@
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateX(26px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.animete-up {
+  animation-name: up;
+  animation-duration: 400ms;
+  animation-fill-mode: backwards;
+}
+.parte1 h2 {
+  animation-delay: 80ms;
+}
+.parte2 {
+  animation-delay: 180ms;
+}
+.parte3 {
+  animation-delay: 260ms;
+}
+.parte4 {
+  animation-delay: 340ms;
+}

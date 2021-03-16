@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Noto Sans", sans-serif;
+}
+#botton {
+  color: aliceblue;
+  display: flex;
+  width: 100%;
+  margin-top: 5%;
+  align-items: center;
+}
+
+.botton1 {
+  margin: 0 7%;
+}
+.botton1 h2 {
+  font-size: 19px;
+}
+.botton1 span {
+  font-size: 19px;
+  font-weight: 100;
+  color: rgba(200, 200, 200, 0.8);
+}
+.botton2 h2 {
+  font-size: 19px;
+}
+.botton2 span {
+  font-size: 19px;
+  font-weight: 100;
+  color: rgba(200, 200, 200, 0.8);
+}
+.botton3 {
+  display: flex;
+  align-items: center;
+  margin: 0 7% 0 25%;
+}
+.botton3 h2 {
+  font-size: 20px;
+}
+.botton4 img {
+  background-color: black;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .botton3 {
+    margin: auto;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .botton3 {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 780px) {
+  #botton {
+    display: flex;
+    flex-direction: column;
+  }
+  .botton1,
+  .botton2,
+  .botton3,
+  .botton4 {
+    margin-top: 1rem;
+  }
+
+  .botton1 h2 {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+
+  .botton1 span {
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+  }
+
+  .botton2 h2 {
+    font-size: 30px;
+    margin-top: 2rem;
+  }
+  .botton2 span {
+    font-size: 30px;
+    color: rgb(200, 200, 200);
+  }
+  .botton3 {
+    margin-top: 2rem;
+  }
+  .botton3 h2 {
+    font-size: 25px;
+    margin: 0 2rem;
+  }
+  .botton4 {
+    margin-right: 2rem;
+  }
+  .botton4 img {
+    margin-left: 2rem;
+  }
+}

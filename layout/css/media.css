@@ -1,0 +1,108 @@
+@media screen and (max-width: 780px){
+
+    .parte1{
+      display: block;
+      margin: auto;
+    }
+  .parte2 , .parte3 , .parte4 {
+    display: none;
+    margin: 0;
+   transition: all 0.4s;
+  }
+  #menu img{
+    display: block;
+    flex-direction: column;
+  }
+  
+  body a:focus{
+    border: none;
+    background-color: rgba(0, 153, 255, 0.7) ;
+    border-radius: 10px;
+  }
+  label[for="bt_menu"]{
+    height: 50px;
+    width: 50px;
+    background-color:rgba(0, 153, 255, 0.2) ;
+    font-size: 30px;
+    padding: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: "Arial";
+    color: white;
+    margin: 5;
+  } 
+  #bt_menu:checked ~ .parte1{
+    display:none;
+  }
+  
+  #bt_menu:checked ~ .parte2{
+    display: inline-block;
+  }
+  #bt_menu:checked ~ .parte3{
+    display: inline-block;
+  }
+  #bt_menu:checked ~ .parte4{
+    display: inline-block;
+  }
+
+
+
+
+/*conteudo centro*/
+#conteudo {
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+.conteudo1 p {
+  font-size:480%;
+margin: 7vh 45%;
+height: 250px;
+width: 350px;
+
+}
+.conteudo1 h3{
+ 
+  width: 350px;
+  margin: 7vh 50%;
+  font-size: 150%;
+}
+.conteudo2 {
+ padding: 0;
+  margin: 40rem 0 0 -4rem;
+  width: 25%;
+  height: 12.5rem;
+  max-height: none;
+  }
+ .arrow{
+   margin-top: 25%;
+ }
+.conteudo3{
+  padding: 0;
+  margin-top: 40rem;
+   max-width:25%; 
+   height: 14.5rem;
+  
+}
+}
+
+@media screen and (max-width: 1024px){
+   /*conteudo do centro*/
+    .conteudo1{
+      margin-left: 4vh;
+      width: 30%;
+      height: auto;
+    }
+    .conteudo1 p{
+      font-size:11vh;
+    }
+    .conteudo2 {
+     margin-left: 40%; 
+     width: 25%;
+     height:30vh;
+    }
+    .conteudo3 img{
+      height: 30vh;
+      
+    }
+  }
